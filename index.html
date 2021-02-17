@@ -16,7 +16,25 @@
 <meta name="twitter:title" content="首页 -Andy Chang中国">
 <meta name="twitter:description" content="Andy Chang中国首页">
 <meta name="twitter:image" content="https://realandychang.us/andypfp.png"> 
- 
+
+<!--Language Redirect-->
+<script type="text/javascript">
+    $( document ).ready(function(){
+        var userLang = navigator.language || navigator.userLanguage;
+        if (userLang == "en") {
+        		window.location.href = "realandychang.us"
+            break;
+        }
+        
+       if (userLang == "zh") {
+            break;
+        }
+        
+       else {
+            break;
+        }
+    });
+</script>
 <!--Return to top redirect-->
 <body id="head">
 
